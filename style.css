@@ -1,0 +1,27 @@
+h1{
+    font-size: 55px;
+    
+}
+body{
+    font-family: 'Lobster', cursive;
+    margin: 0;
+}
+.name-highliter{
+    color: chartreuse;
+}
+.control-width{
+    width: 35%;
+    margin: 5%;
+    padding: 1%;
+    float: left;
+}
+.control-width img{
+    width: 100%;
+}
+.background{
+    background-image: url(images/top-banner.png);
+}
+section{
+    height: 500px;
+    background-repeat: no-repeat;
+}
