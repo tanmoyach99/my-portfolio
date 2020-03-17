@@ -3,7 +3,7 @@ h1{
     
 }
 body{
-    font-family: 'Acme', sans-serif;
+    font-family: 'Bellota Text', cursive;
     margin: 0;
 }
 .name-highliter{
@@ -37,4 +37,36 @@ section{
 }
 #font-change{
     color: springgreen;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    background-color: white;
+    height: 60%;
+}
+.experience-area{
+    background-image:url(images/exp-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orange, salmon);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.ex-years{
+    color: yellowgreen;
+}
+footer{
+    text-align: center;
 }
